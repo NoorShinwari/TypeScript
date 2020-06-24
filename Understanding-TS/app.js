@@ -1,7 +1,4 @@
-function generateError(messege, code) {
-    throw {
-        message: messege,
-        errorCode: code
-    };
-}
-generateError("An error occurred!", 500);
+"use strict";
+const userName = "Maximilian";
+userName = 3;
+console.log(userName);
